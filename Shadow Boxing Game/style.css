@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(37, 37, 37);
+}
+
+.main{
+    display: flex;
+}
+
+.enemy-hp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.enemy-hp-img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 35px;
+}
+
+.enemy-img{
+    height: 300px;
+    width: 300px;
+}
+
+.grayscale{
+    filter: grayscale(100%);
+}
